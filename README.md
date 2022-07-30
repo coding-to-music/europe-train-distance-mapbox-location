@@ -1,3 +1,31 @@
+# europe-train-distance-mapbox-location
+
+# 🚀 All direct long-distance railway connections for cities in Germany. 🚀
+
+https://github.com/coding-to-music/europe-train-distance-mapbox-location
+
+From / By Julius Tens https://github.com/juliuste
+
+https://github.com/juliuste/direkt.bahn.guru
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/europe-train-distance-mapbox-location.git
+git push -u origin main
+```
+
 # direkt.bahn.guru
 
 **[direkt.bahn.guru](https://direkt.bahn.guru/)** All direct long-distance railway connections from a given city.

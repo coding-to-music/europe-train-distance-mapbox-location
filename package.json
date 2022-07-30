@@ -1,5 +1,6 @@
 {
-	"name": "direkt.bahn.guru",
+	"name": "europe-train-distance-mapbox-location",
+	"description": "All direct long-distance railway connections for cities in Germany.",
 	"version": "0.0.0",
 	"private": true,
 	"homepage": "https://github.com/juliuste/direkt.bahn.guru",
@@ -10,6 +11,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "webpack",
+		"deploy": "git add . && git commit -m Build && git push",
 		"check-deps": "depcheck --ignores='webpack-cli' --ignore-patterns='assets/bundle.js'",
 		"fix": "npm run lint -- --fix",
 		"lint": "eslint src",
